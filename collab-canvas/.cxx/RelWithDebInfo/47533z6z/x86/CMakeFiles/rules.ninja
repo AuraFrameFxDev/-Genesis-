@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\Wehtt\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Users\Wehtt\Desktop\Genesis\collab-canvas\src\main\cpp -BC:\Users\Wehtt\Desktop\Genesis\collab-canvas\.cxx\RelWithDebInfo\47533z6z\x86
+  command = C:\Users\Wehtt\AppData\Local\Android\Sdk\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\Genesis\collab-canvas\src\main\cpp -BC:\Genesis\collab-canvas\.cxx\RelWithDebInfo\47533z6z\x86
   description = Re-running CMake...
   generator = 1
 

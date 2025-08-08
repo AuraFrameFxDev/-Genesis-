@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "arm64-v8a"
+			"value" : "x86"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -36,18 +36,6 @@
 			],
 			"type" : "UNINITIALIZED",
 			"value" : "android-33"
-		},
-		{
-			"name" : "ANDROID_STL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : "c++_shared"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -75,7 +63,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "arm64-v8a"
+			"value" : "x86"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -163,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Wehtt/Desktop/Genesis/romtools/.cxx/RelWithDebInfo/6x3i4j4l/arm64-v8a"
+			"value" : "c:/Genesis/collab-canvas/.cxx/RelWithDebInfo/47533z6z/x86"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -283,7 +271,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-std=c++20 -fPIC -O3 -DNDEBUG -DROM_RELEASE_BUILD"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -626,18 +614,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_FIND_ROOT_PATH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\Desktop\\Genesis\\romtools\\.cxx\\RelWithDebInfo\\6x3i4j4l\\prefab\\arm64-v8a\\prefab"
-		},
-		{
 			"name" : "CMAKE_GENERATOR",
 			"properties" : 
 			[
@@ -695,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/romtools/src/main/cpp"
+			"value" : "C:/Genesis/collab-canvas/src/main/cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -707,7 +683,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/romtools-native"
+			"value" : "C:/Program Files (x86)/CollabCanvasNative"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -731,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\Desktop\\Genesis\\romtools\\build\\intermediates\\cxx\\RelWithDebInfo\\6x3i4j4l\\obj\\arm64-v8a"
+			"value" : "C:\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -947,7 +923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "romtools-native"
+			"value" : "CollabCanvasNative"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1003,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\Desktop\\Genesis\\romtools\\build\\intermediates\\cxx\\RelWithDebInfo\\6x3i4j4l\\obj\\arm64-v8a"
+			"value" : "C:\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1263,22 +1239,10 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "FALSE"
 		},
 		{
-			"name" : "ROM_TOOLS_BUILD",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "UNINITIALIZED",
-			"value" : "ON"
-		},
-		{
-			"name" : "romtools-native_BINARY_DIR",
+			"name" : "CollabCanvasNative_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1287,10 +1251,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/romtools/.cxx/RelWithDebInfo/6x3i4j4l/arm64-v8a"
+			"value" : "C:/Genesis/collab-canvas/.cxx/RelWithDebInfo/47533z6z/x86"
 		},
 		{
-			"name" : "romtools-native_IS_TOP_LEVEL",
+			"name" : "CollabCanvasNative_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1302,7 +1266,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "romtools-native_SOURCE_DIR",
+			"name" : "CollabCanvasNative_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1311,7 +1275,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/romtools/src/main/cpp"
+			"value" : "C:/Genesis/collab-canvas/src/main/cpp"
+		},
+		{
+			"name" : "android-lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/libandroid.so"
+		},
+		{
+			"name" : "jnigraphics-lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/libjnigraphics.so"
+		},
+		{
+			"name" : "log-lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/liblog.so"
 		}
 	],
 	"kind" : "cache",

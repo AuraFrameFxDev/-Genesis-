@@ -1,26 +1,26 @@
 {
   "buildFiles": [
-    "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Genesis\\collab-canvas\\src\\main\\cpp\\CMakeLists.txt"
   ],
   "cleanCommandsComponents": [
     [
       "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
       "-C",
-      "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\.cxx\\RelWithDebInfo\\47533z6z\\x86",
+      "C:\\Genesis\\collab-canvas\\.cxx\\RelWithDebInfo\\47533z6z\\x86",
       "clean"
     ]
   ],
   "buildTargetsCommandComponents": [
     "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
     "-C",
-    "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\.cxx\\RelWithDebInfo\\47533z6z\\x86",
+    "C:\\Genesis\\collab-canvas\\.cxx\\RelWithDebInfo\\47533z6z\\x86",
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
     "collab-canvas-native::@6890427a1f51a3e7e1df": {
       "artifactName": "collab-canvas-native",
       "abi": "x86",
-      "output": "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86\\libcollab-canvas-native.so",
+      "output": "C:\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86\\libcollab-canvas-native.so",
       "runtimeFiles": []
     }
   }

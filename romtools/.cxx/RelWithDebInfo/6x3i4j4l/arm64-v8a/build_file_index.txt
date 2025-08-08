@@ -1,1 +1,1 @@
-C:\Users\Wehtt\Desktop\Genesis\romtools\src\main\cpp\CMakeLists.txt
+C:\Genesis\romtools\src\main\cpp\CMakeLists.txt

@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C:/Users/Wehtt/Desktop/Genesis/app/build/intermediates/cxx/RelWithDebInfo/v4w6l2w7/obj/arm64-v8a/libauraframefx.so"
+			"path" : "C:/Genesis/app/build/intermediates/cxx/RelWithDebInfo/v4w6l2w7/obj/arm64-v8a/libauraframefx.so"
 		}
 	],
 	"backtrace" : 1,
@@ -84,7 +84,7 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "C:/Users/Wehtt/Desktop/Genesis/app/src/main/cpp/include"
+					"path" : "C:/Genesis/app/src/main/cpp/include"
 				}
 			],
 			"language" : "CXX",

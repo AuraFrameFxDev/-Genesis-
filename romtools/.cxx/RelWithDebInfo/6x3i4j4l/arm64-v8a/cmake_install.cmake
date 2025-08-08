@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Wehtt/Desktop/Genesis/romtools/src/main/cpp
+# Install script for directory: C:/Genesis/romtools/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Wehtt/Desktop/Genesis/romtools/.cxx/RelWithDebInfo/6x3i4j4l/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Genesis/romtools/.cxx/RelWithDebInfo/6x3i4j4l/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

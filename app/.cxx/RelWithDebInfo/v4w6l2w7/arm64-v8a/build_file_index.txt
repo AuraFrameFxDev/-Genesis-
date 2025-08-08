@@ -1,1 +1,1 @@
-C:\Users\Wehtt\Desktop\Genesis\app\src\main\cpp\CMakeLists.txt
+C:\Genesis\app\src\main\cpp\CMakeLists.txt

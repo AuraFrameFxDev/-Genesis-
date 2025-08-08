@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86"
+			"value" : "arm64-v8a"
 		},
 		{
 			"name" : "ANDROID_NDK",
@@ -23,7 +23,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973"
+			"value" : "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.13846066"
 		},
 		{
 			"name" : "ANDROID_PLATFORM",
@@ -51,7 +51,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-addr2line.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_ANDROID_ARCH_ABI",
@@ -63,7 +63,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "x86"
+			"value" : "arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_ANDROID_NDK",
@@ -75,7 +75,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973"
+			"value" : "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\29.0.13846066"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
 		},
 		{
 			"name" : "CMAKE_ASM_FLAGS",
@@ -151,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Wehtt/Desktop/Genesis/collab-canvas/.cxx/RelWithDebInfo/47533z6z/x86"
+			"value" : "c:/Genesis/app/.cxx/RelWithDebInfo/v4w6l2w7/arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -239,7 +239,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -255,7 +255,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -367,7 +367,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -495,7 +495,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-dlltool.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -671,7 +671,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/collab-canvas/src/main/cpp"
+			"value" : "C:/Genesis/app/src/main/cpp"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/CollabCanvasNative"
+			"value" : "C:/Program Files (x86)/auraframefx"
 		},
 		{
 			"name" : "CMAKE_INSTALL_SO_NO_EXE",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86"
+			"value" : "C:\\Genesis\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\v4w6l2w7\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -723,7 +723,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/ld.lld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-nm.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-objcopy.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-objdump.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -923,7 +923,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "CollabCanvasNative"
+			"value" : "auraframefx"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -939,7 +939,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -955,7 +955,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-readelf.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -979,7 +979,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:\\Users\\Wehtt\\Desktop\\Genesis\\collab-canvas\\build\\intermediates\\cxx\\RelWithDebInfo\\47533z6z\\obj\\x86"
+			"value" : "C:\\Genesis\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\v4w6l2w7\\obj\\arm64-v8a"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-strip.exe"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-strip.exe"
 		},
 		{
 			"name" : "CMAKE_SYSTEM_NAME",
@@ -1223,7 +1223,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/build/cmake/android.toolchain.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1242,7 +1242,19 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "CollabCanvasNative_BINARY_DIR",
+			"name" : "android-lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libandroid.so"
+		},
+		{
+			"name" : "auraframefx_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1251,10 +1263,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/collab-canvas/.cxx/RelWithDebInfo/47533z6z/x86"
+			"value" : "C:/Genesis/app/.cxx/RelWithDebInfo/v4w6l2w7/arm64-v8a"
 		},
 		{
-			"name" : "CollabCanvasNative_IS_TOP_LEVEL",
+			"name" : "auraframefx_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1266,7 +1278,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "CollabCanvasNative_SOURCE_DIR",
+			"name" : "auraframefx_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1275,19 +1287,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Wehtt/Desktop/Genesis/collab-canvas/src/main/cpp"
-		},
-		{
-			"name" : "android-lib",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Path to a library."
-				}
-			],
-			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/libandroid.so"
+			"value" : "C:/Genesis/app/src/main/cpp"
 		},
 		{
 			"name" : "jnigraphics-lib",
@@ -1299,7 +1299,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/libjnigraphics.so"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libjnigraphics.so"
 		},
 		{
 			"name" : "log-lib",
@@ -1311,7 +1311,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/33/liblog.so"
+			"value" : "C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/29.0.13846066/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/liblog.so"
 		}
 	],
 	"kind" : "cache",
