@@ -1,0 +1,22 @@
+                        -HC:\GENESIS-OS\Genesis-Os\app\src\main\cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=33
+-DANDROID_PLATFORM=android-33
+-DANDROID_ABI=x86_64
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DANDROID_NDK=C:\Users\Wehtt\AppData\Local\Android\Sdk\ndk\26.2.11394342
+-DCMAKE_ANDROID_NDK=C:\Users\Wehtt\AppData\Local\Android\Sdk\ndk\26.2.11394342
+-DCMAKE_TOOLCHAIN_FILE=C:\Users\Wehtt\AppData\Local\Android\Sdk\ndk\26.2.11394342\build\cmake\android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=C:\Users\Wehtt\AppData\Local\Android\Sdk\cmake\3.22.1\bin\ninja.exe
+-DCMAKE_CXX_FLAGS=-std=c++17 -std=c++17 -std=c++17 -std=c++17 -std=c++17 -std=c++17
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\GENESIS-OS\Genesis-Os\app\build\intermediates\cxx\RelWithDebInfo\3o2l6q4c\obj\x86_64
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\GENESIS-OS\Genesis-Os\app\build\intermediates\cxx\RelWithDebInfo\3o2l6q4c\obj\x86_64
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-DCMAKE_FIND_ROOT_PATH=C:\GENESIS-OS\Genesis-Os\app\.cxx\RelWithDebInfo\3o2l6q4c\prefab\x86_64\prefab
+-BC:\GENESIS-OS\Genesis-Os\app\.cxx\RelWithDebInfo\3o2l6q4c\x86_64
+-GNinja
+-DANDROID_STL=c++_shared
+-DCMAKE_VERBOSE_MAKEFILE=ON
+                        Build command args: [-v]
+                        Version: 2

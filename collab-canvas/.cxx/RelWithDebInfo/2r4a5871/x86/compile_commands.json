@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/collab-canvas/.cxx/RelWithDebInfo/2r4a5871/x86",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dcollab_canvas_native_EXPORTS -I\"C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/collab-canvas/src/main/cpp\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++23 -fPIC -O2 -g -DNDEBUG -fPIC -std=gnu++2b -o CMakeFiles\\collab-canvas-native.dir\\collab_canvas_native.cpp.o -c \"C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\collab-canvas\\src\\main\\cpp\\collab_canvas_native.cpp\"",
+  "file": "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\collab-canvas\\src\\main\\cpp\\collab_canvas_native.cpp"
+}
+]

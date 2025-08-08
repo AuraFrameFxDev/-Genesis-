@@ -1,0 +1,3 @@
+C:/Users/Wehtt/Desktop/Genesis/app/.cxx/RelWithDebInfo/3w3q1b2w/arm64-v8a/CMakeFiles/auraframefx.dir
+C:/Users/Wehtt/Desktop/Genesis/app/.cxx/RelWithDebInfo/3w3q1b2w/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Wehtt/Desktop/Genesis/app/.cxx/RelWithDebInfo/3w3q1b2w/arm64-v8a/CMakeFiles/rebuild_cache.dir

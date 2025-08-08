@@ -1,0 +1,3 @@
+C:/Genesis/collab-canvas/.cxx/Debug/3641d4s3/x86/CMakeFiles/collab-canvas-native.dir
+C:/Genesis/collab-canvas/.cxx/Debug/3641d4s3/x86/CMakeFiles/edit_cache.dir
+C:/Genesis/collab-canvas/.cxx/Debug/3641d4s3/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/collab-canvas/.cxx/RelWithDebInfo/2r4a5871/armeabi-v7a/CMakeFiles/collab-canvas-native.dir
+C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/collab-canvas/.cxx/RelWithDebInfo/2r4a5871/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/collab-canvas/.cxx/RelWithDebInfo/2r4a5871/armeabi-v7a/CMakeFiles/rebuild_cache.dir

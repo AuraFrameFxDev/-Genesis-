@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/romtools/.cxx/RelWithDebInfo/3n2i2o47/arm64-v8a",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID_PLATFORM=android-33 -DROM_TOOLS_BUILD=1 -Dromtools_native_EXPORTS -I\"C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/romtools/src/main/cpp\" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -fPIC -O3 -DNDEBUG -DROM_RELEASE_BUILD -O2 -g -DNDEBUG -fPIC -std=c++20 -o CMakeFiles\\romtools-native.dir\\romtools_native.cpp.o -c \"C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\src\\main\\cpp\\romtools_native.cpp\"",
+  "file": "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\src\\main\\cpp\\romtools_native.cpp"
+}
+]

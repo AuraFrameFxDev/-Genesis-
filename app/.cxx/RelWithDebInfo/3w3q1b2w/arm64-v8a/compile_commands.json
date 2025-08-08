@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/Users/Wehtt/Desktop/Genesis/app/.cxx/RelWithDebInfo/3w3q1b2w/arm64-v8a",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\27.0.12077973\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android33 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DAI_PROCESSING_OPTIMIZED=1 -DGENESIS_CONSCIOUSNESS_PLATFORM=1 -DJAVA_24_COMPATIBLE=1 -Dauraframefx_EXPORTS -IC:/Users/Wehtt/Desktop/Genesis/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++23 -O3 -ffast-math -fPIC -DEIGEN_NO_DEBUG -DEIGEN_MPL2_ONLY -std=c++23 -O2 -g -DNDEBUG -fPIC -std=c++2b -o CMakeFiles\\auraframefx.dir\\auraframefx.cpp.o -c C:\\Users\\Wehtt\\Desktop\\Genesis\\app\\src\\main\\cpp\\auraframefx.cpp",
+  "file": "C:\\Users\\Wehtt\\Desktop\\Genesis\\app\\src\\main\\cpp\\auraframefx.cpp"
+}
+]

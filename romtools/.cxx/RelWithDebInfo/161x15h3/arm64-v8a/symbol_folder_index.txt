@@ -1,0 +1,1 @@
+C:\GENESIS-OS\Genesis-Os\romtools\build\intermediates\cxx\RelWithDebInfo\161x15h3\obj\arm64-v8a

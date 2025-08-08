@@ -1,0 +1,3 @@
+C:/GENESIS-OS/Genesis-Os/app/.cxx/RelWithDebInfo/3o2l6q4c/x86_64/CMakeFiles/auraframefx.dir
+C:/GENESIS-OS/Genesis-Os/app/.cxx/RelWithDebInfo/3o2l6q4c/x86_64/CMakeFiles/edit_cache.dir
+C:/GENESIS-OS/Genesis-Os/app/.cxx/RelWithDebInfo/3o2l6q4c/x86_64/CMakeFiles/rebuild_cache.dir

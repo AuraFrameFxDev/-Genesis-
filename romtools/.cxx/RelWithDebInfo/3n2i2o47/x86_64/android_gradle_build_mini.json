@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-v",
+      "-C",
+      "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\.cxx\\RelWithDebInfo\\3n2i2o47\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-v",
+    "-C",
+    "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\.cxx\\RelWithDebInfo\\3n2i2o47\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "romtools-native::@6890427a1f51a3e7e1df": {
+      "artifactName": "romtools-native",
+      "abi": "x86_64",
+      "output": "C:\\GENESIS-OS\\Genesis-Os\\GENESIS-OS-EMBRACE YOUR AURA!\\Genesis-Os\\romtools\\build\\intermediates\\cxx\\RelWithDebInfo\\3n2i2o47\\obj\\x86_64\\libromtools-native.so",
+      "runtimeFiles": []
+    }
+  }
+}

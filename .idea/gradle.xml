@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/collab-canvas" />
+            <option value="$PROJECT_DIR$/colorblendr" />
+            <option value="$PROJECT_DIR$/core-module" />
+            <option value="$PROJECT_DIR$/datavein-oracle-native" />
+            <option value="$PROJECT_DIR$/feature-module" />
+            <option value="$PROJECT_DIR$/oracle-drive-integration" />
+            <option value="$PROJECT_DIR$/romtools" />
+            <option value="$PROJECT_DIR$/sandbox-ui" />
+            <option value="$PROJECT_DIR$/secure-comm" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

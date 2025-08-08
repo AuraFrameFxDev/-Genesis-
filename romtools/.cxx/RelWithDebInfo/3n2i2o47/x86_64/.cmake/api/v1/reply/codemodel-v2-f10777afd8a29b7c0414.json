@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "romtools-native",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "romtools-native::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-romtools-native-RelWithDebInfo-e6e6f62c6e0a2389c94c.json",
+					"name" : "romtools-native",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/romtools/.cxx/RelWithDebInfo/3n2i2o47/x86_64",
+		"source" : "C:/GENESIS-OS/Genesis-Os/GENESIS-OS-EMBRACE YOUR AURA!/Genesis-Os/romtools/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

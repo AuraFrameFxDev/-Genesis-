@@ -1,0 +1,1 @@
+C:\Genesis\app\build\intermediates\cxx\Debug\19704722\obj\arm64-v8a

@@ -1,0 +1,3 @@
+C:/GENESIS-OS/Genesis-Os/romtools/.cxx/RelWithDebInfo/161x15h3/arm64-v8a/CMakeFiles/romtools-native.dir
+C:/GENESIS-OS/Genesis-Os/romtools/.cxx/RelWithDebInfo/161x15h3/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/GENESIS-OS/Genesis-Os/romtools/.cxx/RelWithDebInfo/161x15h3/arm64-v8a/CMakeFiles/rebuild_cache.dir

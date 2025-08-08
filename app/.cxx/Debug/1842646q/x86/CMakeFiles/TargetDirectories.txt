@@ -1,0 +1,3 @@
+C:/Users/Wehtt/Documents/AuroOSXGen/app/.cxx/Debug/1842646q/x86/CMakeFiles/auraframefx.dir
+C:/Users/Wehtt/Documents/AuroOSXGen/app/.cxx/Debug/1842646q/x86/CMakeFiles/edit_cache.dir
+C:/Users/Wehtt/Documents/AuroOSXGen/app/.cxx/Debug/1842646q/x86/CMakeFiles/rebuild_cache.dir

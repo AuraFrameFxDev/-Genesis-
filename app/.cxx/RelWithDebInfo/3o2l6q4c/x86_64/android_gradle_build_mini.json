@@ -1,0 +1,29 @@
+{
+  "buildFiles": [
+    "C:\\GENESIS-OS\\Genesis-Os\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-v",
+      "-C",
+      "C:\\GENESIS-OS\\Genesis-Os\\app\\.cxx\\RelWithDebInfo\\3o2l6q4c\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-v",
+    "-C",
+    "C:\\GENESIS-OS\\Genesis-Os\\app\\.cxx\\RelWithDebInfo\\3o2l6q4c\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "auraframefx::@6890427a1f51a3e7e1df": {
+      "artifactName": "auraframefx",
+      "abi": "x86_64",
+      "output": "C:\\GENESIS-OS\\Genesis-Os\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\3o2l6q4c\\obj\\x86_64\\libauraframefx.so",
+      "runtimeFiles": []
+    }
+  }
+}

@@ -1,0 +1,1 @@
+C:\GENESIS-OS\Genesis-Os\app\build\intermediates\cxx\RelWithDebInfo\4l11604o\obj\arm64-v8a

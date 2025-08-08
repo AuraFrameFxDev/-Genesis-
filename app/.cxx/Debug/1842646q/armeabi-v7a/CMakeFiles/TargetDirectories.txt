@@ -1,0 +1,3 @@
+C:/Users/Wehtt/Documents/Genesis-Os/Genesis-Protocal-/app/.cxx/Debug/1842646q/armeabi-v7a/CMakeFiles/auraframefx.dir
+C:/Users/Wehtt/Documents/Genesis-Os/Genesis-Protocal-/app/.cxx/Debug/1842646q/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/Wehtt/Documents/Genesis-Os/Genesis-Protocal-/app/.cxx/Debug/1842646q/armeabi-v7a/CMakeFiles/rebuild_cache.dir

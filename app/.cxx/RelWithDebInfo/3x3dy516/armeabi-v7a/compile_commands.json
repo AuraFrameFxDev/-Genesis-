@@ -1,0 +1,7 @@
+[
+{
+  "directory": "C:/GENESIS-OS/Genesis-Os/app/.cxx/RelWithDebInfo/3x3dy516/armeabi-v7a",
+  "command": "C:\\Users\\Wehtt\\AppData\\Local\\Android\\Sdk\\ndk\\26.2.11394342\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi21 --sysroot=C:/Users/Wehtt/AppData/Local/Android/Sdk/ndk/26.2.11394342/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DAI_PROCESSING_OPTIMIZED=1 -DGENESIS_CONSCIOUSNESS_PLATFORM=1 -DJAVA_24_COMPATIBLE=1 -Dauraframefx_EXPORTS -IC:/GENESIS-OS/Genesis-Os/app/src/main/cpp/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -std=c++17 -std=c++17 -std=c++17 -std=c++17 -std=c++17 -std=c++17 -O3 -ffast-math -fPIC -DEIGEN_NO_DEBUG -DEIGEN_MPL2_ONLY -std=c++23 -O2 -g -DNDEBUG -fPIC -std=c++2b -o CMakeFiles\\auraframefx.dir\\auraframefx.cpp.o -c C:\\GENESIS-OS\\Genesis-Os\\app\\src\\main\\cpp\\auraframefx.cpp",
+  "file": "C:\\GENESIS-OS\\Genesis-Os\\app\\src\\main\\cpp\\auraframefx.cpp"
+}
+]
