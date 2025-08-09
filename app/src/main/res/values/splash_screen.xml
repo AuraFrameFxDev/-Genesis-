@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="splash_background">#000000</color>
+    <color name="neon_teal">#00FFD0</color>
+    <string name="splash_title">Embrace Your Aura</string>
+</resources>

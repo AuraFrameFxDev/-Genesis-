@@ -29,31 +29,16 @@ interface AuraAIService {
         return null
     }
 
-/* <<<<<<<<<<<<<<  ✨ Windsurf Command 🌟 >>>>>>>>>>>>>>>> */
     /**
      * Generates an image from a textual prompt.
      *
      * @param _prompt The description used to guide image generation.
-     * @return The generated image as a ByteArray, or null if generation fails.
      * @return The generated image as a ByteArray, or null if generation is not implemented or fails.
      */
-    suspend fun generateImage(_prompt: String): ByteArray? {
-        return try {
-            // Analyze the prompt and generate an image
-            val imagePath = vertexAIClient.generateImage(_prompt)
-
-            // Read the image file into a ByteArray
-            val imageFile = File(imagePath)
-            imageFile.readBytes()
-        } catch (e: Exception) {
-            println("Error generating image: ${e.message}")
-            null
-        }
     suspend fun generateImage(_prompt: String): ByteArray? { // Returns URL or path to image -> ByteArray?
         // TODO: Implement image generation
         return null // Placeholder for image data
     }
-/* <<<<<<<<<<  3c8a1fcf-225c-44e3-aaf0-6bc8c7c30852  >>>>>>>>>>> */
 
     /**
      * Generates AI text based on the provided prompt and optional configuration options.

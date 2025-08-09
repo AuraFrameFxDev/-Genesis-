@@ -1,9 +1,10 @@
 package dev.aurakai.auraframefx.ai.agents
 
 import dev.aurakai.auraframefx.ai.clients.VertexAIClient
-import dev.aurakai.auraframefx.context.ContextManager
+import dev.aurakai.auraframefx.ai.context.ContextManager
 import dev.aurakai.auraframefx.model.AgentRequest
 import dev.aurakai.auraframefx.model.AgentResponse
+import dev.aurakai.auraframefx.model.AgentType
 import dev.aurakai.auraframefx.model.EnhancedInteractionData
 import dev.aurakai.auraframefx.model.InteractionResponse
 import dev.aurakai.auraframefx.model.SecurityAnalysis
@@ -41,7 +42,11 @@ class KaiAgent @Inject constructor(
     private val securityContext: SecurityContext,
     private val systemMonitor: SystemMonitor,
     private val logger: AuraFxLogger,
-) : BaseAgent("KaiAgent", "KAI") {
+) : BaseAgent(
+    agentName = "KaiAgent",
+    agentType = AgentType.SECURITY,
+    contextManager = contextManager
+) {
     private var isInitialized = false
     private val scope = CoroutineScope(Dispatchers.Default + SupervisorJob())
 

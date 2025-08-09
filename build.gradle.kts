@@ -58,6 +58,13 @@ subprojects {
             }
         }
         
+        // Avoid task conflicts by skipping dependency report configuration in parallel builds
+        if (gradle.startParameter.isParallelProjectExecutionEnabled) {
+            tasks.matching { it.name.contains("DependencyReport") }.configureEach {
+                enabled = false
+            }
+        }
+        
         // Note: Kotlin toolchain configured per module for bleeding edge flexibility
     }
 }

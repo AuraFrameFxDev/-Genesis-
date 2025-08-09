@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "dev.aurakai.auraframefx.app-mergeDebugResources-79:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "dev.aurakai.auraframefx.app-mergeDebugResources-3:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Wehtt\\.gradle\\caches\\9.0.0\\transforms\\25dbd2622b6794658d1dcab2d33b1607\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
+                    "source": "C:\\Genesis\\gradle\\wrapper\\.gradle\\caches\\9.0.0\\transforms\\f735fa3d5f5b5e5a00f1a8fa00388666\\transformed\\material-1.11.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

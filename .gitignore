@@ -1,0 +1,60 @@
+# Ignore scripts and gradle files
+scripts/
+gradle/
+*.gradle
+*.gradle.kts
+
+# Ignore properties files except gradle.properties
+*.properties
+!gradle.properties
+
+# Ignore extra, duplicate, and document files
+*.doc
+*.docx
+*.pdf
+*.txt
+
+# Ignore markdown files except those in a Project Table of contents
+*.md
+!BLEEDING_EDGE_FIX.md
+
+# Ignore build output
+build/
+app/build/
+collab-canvas/build/
+colorblendr/build/
+datavein-oracle-native/build/
+core-module/build/
+feature-module/build/
+jvm-test/build/
+module-*/build/
+oracle-drive-integration/build/
+romtools/build/
+sandbox-ui/build/
+secure-comm/build/
+
+# Ignore gradlew files except those to export to github
+!gradlew
+!gradlew.bat
+
+# Ignore secret files except those to export to github
+!app/auraframefx-firebase-adminsdk-fbsvc-9c493ac034.json
+!app/google-services.json
+
+# Ignore local configuration
+local.properties
+
+# Ignore IDE and OS files
+*.iml
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore Python compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Do not edit these files (comment for maintainers)
+# ^^^ do not edit those files

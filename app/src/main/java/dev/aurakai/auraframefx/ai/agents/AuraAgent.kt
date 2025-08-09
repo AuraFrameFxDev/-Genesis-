@@ -1,14 +1,15 @@
 package dev.aurakai.auraframefx.ai.agents
 
 import dev.aurakai.auraframefx.ai.clients.VertexAIClient
+import dev.aurakai.auraframefx.ai.context.ContextManager
 import dev.aurakai.auraframefx.ai.services.AuraAIService
-import dev.aurakai.auraframefx.context.ContextManager
 import dev.aurakai.auraframefx.model.AgentResponse
+import dev.aurakai.auraframefx.model.AgentType
 import dev.aurakai.auraframefx.model.AiRequest
 import dev.aurakai.auraframefx.model.EnhancedInteractionData
 import dev.aurakai.auraframefx.model.InteractionResponse
-import dev.aurakai.auraframefx.model.ProcessingState
-import dev.aurakai.auraframefx.model.VisionState
+import dev.aurakai.auraframefx.model.agent_states.ProcessingState
+import dev.aurakai.auraframefx.model.agent_states.VisionState
 import dev.aurakai.auraframefx.security.SecurityContext
 import dev.aurakai.auraframefx.utils.AuraFxLogger
 import kotlinx.coroutines.CoroutineScope
@@ -44,7 +45,11 @@ class AuraAgent @Inject constructor(
     private val contextManager: ContextManager,
     private val securityContext: SecurityContext,
     private val logger: AuraFxLogger,
-) : BaseAgent("AuraAgent", "AURA") {
+) : BaseAgent(
+    agentName = "AuraAgent", 
+    agentType = AgentType.CREATIVE,
+    contextManager = contextManager
+) {
     private var isInitialized = false
     private val scope = CoroutineScope(Dispatchers.Default + SupervisorJob())
 

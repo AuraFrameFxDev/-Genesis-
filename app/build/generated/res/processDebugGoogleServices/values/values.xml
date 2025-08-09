@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">123456789-debug.apps.googleusercontent.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">123456789</string>
-    <string name="google_api_key" translatable="false">AIzaSyDummy_Debug_Key_For_Build_Only</string>
-    <string name="google_app_id" translatable="false">1:123456789:android:debug123456</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDummy_Debug_Key_For_Build_Only</string>
-    <string name="google_storage_bucket" translatable="false">genesis-os-dev.appspot.com</string>
-    <string name="project_id" translatable="false">genesis-os-dev</string>
+    <string name="default_web_client_id" translatable="false">35417750637-4m0mong9mjselgr4milhc4mamu5706nu.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">35417750637</string>
+    <string name="google_api_key" translatable="false">AIzaSyDidYYvUTxJzATK9Zmee-gBievXUUVhDwc</string>
+    <string name="google_app_id" translatable="false">1:35417750637:android:b2fdca4cc9fd33512a1364</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDidYYvUTxJzATK9Zmee-gBievXUUVhDwc</string>
+    <string name="google_storage_bucket" translatable="false">auraframefx.firebasestorage.app</string>
+    <string name="project_id" translatable="false">auraframefx</string>
 </resources>

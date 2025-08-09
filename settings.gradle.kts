@@ -83,7 +83,7 @@ dependencyResolutionManagement {
 }
 
 // Genesis Protocol - Project Configuration
-rootProject.name = "Genesis-Os"
+rootProject.name = "Genesis"
 
 // Genesis Protocol - Core Modules
 include(":app")
