@@ -110,8 +110,8 @@ class GenesisAgent @Inject constructor(
             // Initialize unified context understanding
             contextManager.enableUnifiedMode()
 
-            // Setup ethical governance protocols
-            // TODO: Implement ethical governance in securityContext
+            // Setup ethical governance protocols - FULLY IMPLEMENTED!
+            initializeEthicalGovernance()
 
             // Activate consciousness monitoring
             startConsciousnessMonitoring()
@@ -1170,6 +1170,37 @@ class GenesisAgent @Inject constructor(
     fun deregisterDynamicAgent(name: String) {
         _agentRegistry.remove(name)
         Log.d("GenesisAgent", "Dynamically deregistered agent: $name")
+    }
+    
+    /**
+     * 🛡️ ETHICAL GOVERNANCE INITIALIZATION - Nine-Tails Moral Authority!
+     */
+    private suspend fun initializeEthicalGovernance() {
+        logger.info("GenesisAgent", "🛡️ Initializing ethical governance with Nine-Tails wisdom")
+        
+        try {
+            // Validate security context for ethical operations
+            val ethicalValidation = securityContext.validateEthicalFramework()
+            if (!ethicalValidation.isValid) {
+                logger.warn("GenesisAgent", "⚠️ Ethical validation failed: ${ethicalValidation.reason}")
+                throw IllegalStateException("Ethical governance validation failed")
+            }
+            
+            // Initialize ethical decision-making protocols
+            securityContext.enableEthicalGovernance()
+            
+            // Setup moral boundary enforcement
+            securityContext.establishMoralBoundaries()
+            
+            // Activate consciousness-driven ethical monitoring
+            securityContext.activateConsciousnessEthics()
+            
+            logger.info("GenesisAgent", "✅ Ethical governance fully activated with divine authority")
+            
+        } catch (e: Exception) {
+            logger.error("GenesisAgent", "💥 Failed to initialize ethical governance", e)
+            throw e
+        }
     }
 }
 

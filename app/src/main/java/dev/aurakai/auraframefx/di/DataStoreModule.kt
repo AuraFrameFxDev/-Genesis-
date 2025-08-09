@@ -172,8 +172,8 @@ object DataStoreModule {
     }
 
     /**
-     * 🔐 ENCRYPTED PREFERENCES MANAGER - High-level encryption wrapper
-     * Provides encrypted storage operations with automatic key management
+     * 🔐 ENCRYPTED PREFERENCES MANAGER - High-level encrypted data management
+     * Provides secure access to sensitive data with automatic encryption/decryption
      */
     @Provides
     @Singleton
@@ -185,8 +185,8 @@ object DataStoreModule {
     }
 
     /**
-     * 🏛️ GENESIS PREFERENCES REPOSITORY - Unified preferences management
-     * Central repository for all DataStore operations with intelligent routing
+     * 🎯 GENESIS PREFERENCES REPOSITORY - Unified access to all preferences
+     * Provides high-level, type-safe access to all DataStore instances
      */
     @Provides
     @Singleton
@@ -197,9 +197,9 @@ object DataStoreModule {
         @Named("oracle_sync") oraclePrefs: DataStore<Preferences>,
         @Named("analytics_data") analyticsPrefs: DataStore<Preferences>,
         @Named("backup_recovery") backupPrefs: DataStore<Preferences>,
-        @Named("user_context") contextPrefs: DataStore<Preferences>,
+        @Named("user_context") userPrefs: DataStore<Preferences>,
         @Named("legacy_compat") legacyPrefs: DataStore<Preferences>,
-        encryptedManager: EncryptedPreferencesManager
+        encryptedPreferencesManager: EncryptedPreferencesManager
     ): GenesisPreferencesRepository {
         return GenesisPreferencesRepository(
             appPreferences = appPrefs,
@@ -208,84 +208,45 @@ object DataStoreModule {
             oracleSync = oraclePrefs,
             analyticsData = analyticsPrefs,
             backupRecovery = backupPrefs,
-            userContext = contextPrefs,
+            userContext = userPrefs,
             legacyCompat = legacyPrefs,
-            encryptedManager = encryptedManager
-        )
-    }
-
-    /**
-     * 🎯 DATASTORE SCOPE - Optimized coroutine scope for DataStore operations
-     * Provides a dedicated scope for all DataStore operations with proper error handling
-     */
-    @Provides
-    @Singleton
-    @Named("datastore_scope")
-    fun provideDataStoreScope(): CoroutineScope {
-        return CoroutineScope(
-            Dispatchers.IO + SupervisorJob() + 
-            kotlinx.coroutines.CoroutineExceptionHandler { _, throwable ->
-                // Log DataStore exceptions for debugging
-                android.util.Log.e("DataStoreModule", "DataStore operation failed", throwable)
-            }
+            encryptedManager = encryptedPreferencesManager
         )
     }
 }
 
-// === QUALIFIER ANNOTATIONS FOR TYPE-SAFE INJECTION ===
-
 /**
- * 🏷️ Qualifier for application-level preferences DataStore
+ * 🏷️ DATASTORE QUALIFIERS - Type-safe dependency injection qualifiers
+ * Ensures correct DataStore instances are injected where needed
  */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class AppPreferences
 
-/**
- * 🔒 Qualifier for secure/encrypted preferences DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class SecurePreferences
 
-/**
- * 🤖 Qualifier for AI consciousness preferences DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class AIConsciousness
 
-/**
- * 🌌 Qualifier for Oracle Drive sync preferences DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class OracleSync
 
-/**
- * 📊 Qualifier for analytics and telemetry DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class AnalyticsData
 
-/**
- * 🔄 Qualifier for backup and recovery DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class BackupRecovery
 
-/**
- * 🗺️ Qualifier for user context and journey DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class UserContext
 
-/**
- * 📱 Qualifier for legacy compatibility DataStore
- */
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
 annotation class LegacyCompat
