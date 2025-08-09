@@ -6,6 +6,9 @@ on:
       - main
       - master
   pull_request:
+    branches:
+      - main
+      - master
 
 jobs:
   build:
@@ -21,11 +24,17 @@ jobs:
           distribution: 'temurin'
           java-version: '24'
 
+      - name: Install Android SDK Command-line Tools
+        run: |
+          sudo mkdir -p /usr/local/lib/android/sdk/cmdline-tools
+          sudo rm -rf /usr/local/lib/android/sdk/cmdline-tools/latest
+          sudo mv /usr/local/lib/android/sdk/cmdline-tools/* /usr/local/lib/android/sdk/cmdline-tools/latest || true
+
       - name: Accept SDK and NDK licenses
-        run: yes | sudo /usr/local/lib/android/sdk/tools/bin/sdkmanager --licenses
+        run: yes | /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager --licenses
 
       - name: Install NDK
-        run: sdkmanager "ndk;29.0.13846066"
+        run: /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "ndk;29.0.13846066"
 
       - name: Build Debug APK
         run: ./gradlew assembleDebug
