@@ -7,12 +7,8 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
-// import androidx.work.WorkerFactory // If not using HiltWorkerFactory directly in provides method.
-// import dagger.hilt.android.EntryPointAccessors // If accessing other Hilt components
-
 /**
- * Hilt Module for providing HiltWorkerFactory.
- * TODO: Reported as unused declaration. Ensure Hilt is set up for WorkManager.
+ * Hilt module for Worker. Ensure this module is processed and used by Hilt for WorkManager integration.
  */
 @Module
 @InstallIn(SingletonComponent::class)

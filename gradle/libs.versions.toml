@@ -189,6 +189,11 @@ firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.r
 firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics-ktx", version = "22.5.0" }
 firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics-ktx", version.ref = "firebaseCrashlyticsKtx" }
 
+# ===== GOOGLE SIGN-IN =====
+google-auth = { group = "com.google.android.gms", name = "play-services-auth", version = "21.2.0" }
+google-identity = { group = "com.google.android.gms", name = "play-services-identity", version = "18.0.1" }
+google-auth-api-phone = { group = "com.google.android.gms", name = "play-services-auth-api-phone", version = "18.0.2" }
+
 # ===== XPOSED FRAMEWORK (BLEEDING EDGE) =====
 # Xposed Framework (from your JAR files)
 xposed = { module = "de.robv.android.xposed:api", version.ref = "xposed" }

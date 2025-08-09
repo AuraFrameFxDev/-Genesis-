@@ -10,8 +10,7 @@ import javax.inject.Singleton
 // import android.content.Context // If KaiController needs context
 
 /**
- * Hilt Module for providing KaiController.
- * TODO: Reported as unused declaration. Ensure Hilt is set up and this module is processed.
+ * Hilt module for KaiController. Ensure this module is processed and used by Hilt.
  */
 @Module
 @InstallIn(SingletonComponent::class)

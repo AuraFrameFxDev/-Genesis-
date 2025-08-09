@@ -185,6 +185,16 @@ dependencies {
     implementation(libs.bundles.compose)
     implementation(libs.androidx.navigation.compose)
 
+    // ===== FIREBASE =====
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.crashlytics)
+
+    // ===== GOOGLE SIGN-IN =====
+    implementation(libs.google.auth)
+    implementation(libs.google.identity)
+    implementation(libs.google.auth.api.phone)
+
     // ===== HILT DEPENDENCY INJECTION =====
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)

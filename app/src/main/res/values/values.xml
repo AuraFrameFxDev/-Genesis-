@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Default values.xml file for resource merging -->
+    <!-- Font resource validation -->
+    <string name="font_brolink_demo">brolink_demo</string>
+    <string name="font_ethnocentric_rg">ethnocentric_rg</string>
+    
+    <!-- App name -->
+    <string name="app_name">AuraFrameFX</string>
 </resources>
 

@@ -1,58 +1,96 @@
 package dev.aurakai.auraframefx.di
 
 import android.content.Context
-import androidx.hilt.work.HiltWorkerFactory // For Configuration.Builder().setWorkerFactory
+import android.util.Log
+import androidx.hilt.work.HiltWorkerFactory
 import androidx.work.Configuration
 import androidx.work.WorkManager
+import androidx.work.WorkerFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.android.qualifiers.ApplicationContext
 import dagger.hilt.components.SingletonComponent
+import dev.aurakai.auraframefx.BuildConfig
+import dev.aurakai.auraframefx.workers.AIProcessingWorkerFactory
 import javax.inject.Singleton
 
 /**
- * Hilt Module for providing WorkManager related dependencies.
- * TODO: Reported as unused declaration. Ensure Hilt is set up for WorkManager.
+ * Hilt module for WorkManager integration.
+ * Configures and provides WorkManager with custom settings for the AI companion app.
  */
 @Module
 @InstallIn(SingletonComponent::class)
 object WorkManagerModule {
+    private const val TAG = "WorkManagerModule"
 
     /**
-     * Provides WorkManager Configuration.
-     * @param workerFactory HiltWorkerFactory dependency.
-     * @return A WorkManager Configuration instance.
-     * TODO: Reported as unused. Ensure this is correctly set up if custom WorkManager config is needed.
+     * Provides WorkManager Configuration with custom settings.
+     * 
+     * @param workerFactory HiltWorkerFactory for dependency injection in workers
+     * @param aiWorkerFactory Custom worker factory for AI processing tasks
+     * @return Configured WorkManager Configuration instance
      */
     @Provides
     @Singleton
     fun provideWorkManagerConfiguration(
         workerFactory: HiltWorkerFactory,
-    ): Configuration =
-        Configuration.Builder()
-            .setWorkerFactory(workerFactory)
-            .build()
+        aiWorkerFactory: AIProcessingWorkerFactory
+    ): Configuration {
+        return try {
+            Configuration.Builder()
+                .setWorkerFactory(workerFactory)
+                .setMinimumLoggingLevel(if (BuildConfig.DEBUG) Log.DEBUG else Log.ERROR)
+                .setJobSchedulerJobIdRange(1000, 2000) // Reserve job ID range
+                .build()
+        } catch (e: Exception) {
+            Log.e(TAG, "Error creating WorkManager config", e)
+            // Fallback to default configuration
+            Configuration.Builder()
+                .setWorkerFactory(workerFactory)
+                .build()
+        }
+    }
 
     /**
-     * Provides the WorkManager instance.
-     * @param _context Application context. Parameter reported as unused.
-     * @param _configuration WorkManager Configuration dependency. Parameter reported as unused.
-     * @return A WorkManager instance.
-     * TODO: Reported as unused. Ensure WorkManager is initialized and used.
+     * Provides the WorkManager instance with proper initialization.
+     * 
+     * @param context Application context
+     * @param configuration WorkManager Configuration
+     * @return Configured WorkManager instance
      */
     @Provides
     @Singleton
     fun provideWorkManager(
-        @ApplicationContext _context: Context,
-        _configuration: Configuration, // Hilt will provide this from the method above
+        @ApplicationContext context: Context,
+        configuration: Configuration
     ): WorkManager {
-        // TODO: Parameters _context, _configuration reported as unused (Hilt will provide them).
-        // WorkManager.initialize(_context, _configuration) // This should be done once, usually in Application.onCreate
-        // return WorkManager.getInstance(_context)
+        return try {
+            // Hilt handles the initialization with the provided Configuration
+            WorkManager.initialize(context, configuration)
+            WorkManager.getInstance(context)
+        } catch (e: IllegalStateException) {
+            // Handle case where WorkManager is already initialized
+            Log.w(TAG, "WorkManager already initialized, using existing instance")
+            WorkManager.getInstance(context)
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to initialize WorkManager", e)
+            // Provide fallback instance
+            WorkManager.getInstance(context)
+        }
+    }
 
-        // As per Hilt docs, if you provide Configuration, Hilt handles initialization.
-        // So, just getting the instance should be fine.
-        return WorkManager.getInstance(_context) // Placeholder, assumes Hilt handles init via Configuration provider
+    /**
+     * Provides a custom worker factory for AI processing tasks.
+     * 
+     * @param context Application context
+     * @return Configured AIProcessingWorkerFactory
+     */
+    @Provides
+    @Singleton
+    fun provideAIWorkerFactory(
+        @ApplicationContext context: Context
+    ): AIProcessingWorkerFactory {
+        return AIProcessingWorkerFactory(context)
     }
 }
