@@ -984,7 +984,7 @@
     <color name="mtrl_textinput_hovered_box_stroke_color">#DE000000</color>
     <color name="neon_blue">#00FFFF</color>
     <color name="neon_purple">#E000FF</color>
-    <color name="neon_teal">#00FFCC</color>
+    <color name="neon_teal">#00FFD0</color>
     <color name="neon_teal_transparent">#3300FFCC</color>
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
@@ -1021,6 +1021,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="splash_background">#000000</color>
     <color name="surface">@color/light_surface</color>
     <color name="surface_variant">@color/light_surface_variant</color>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
@@ -2505,6 +2506,7 @@
     <string description="Title of the side sheet&apos;s accessibility pane that is spoken by TalkBack when the side sheet appears on screen. [CHAR_LIMIT=NONE]" name="side_sheet_accessibility_pane_title">Side Sheet</string>
     <string name="side_sheet_behavior" translatable="false">com.google.android.material.sidesheet.SideSheetBehavior</string>
     <string name="snackbar_pane_title">Alert</string>
+    <string name="splash_title">Embrace Your Aura</string>
     <string name="start_recording">Start Recording</string>
     <string name="start_transcription">Start Transcription</string>
     <string name="state_empty">Empty</string>
@@ -6584,6 +6586,21 @@
     <item name="cornerSizeBottomLeft">@dimen/mtrl_textinput_box_corner_radius_small</item>
     <item name="cornerSizeBottomRight">@dimen/mtrl_textinput_box_corner_radius_small</item>
   </style>
+    <style name="SplashScreen.HeaderText" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/brolink_demo</item>
+        <item name="android:textColor">@color/neon_teal</item>
+    </style>
+    <style name="SplashScreen.MainText" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/ethnocentric_rg</item>
+        <item name="android:textColor">@color/neon_teal</item>
+    </style>
+    <style name="SplashScreen.MaterializeConstruct" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+        <item name="android:textColor">@color/neon_teal</item>
+        <item name="android:fontFamily">@font/ethnocentric_rg</item>
+    </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>
     <style name="TextAppearance.AppCompat.Body2" parent="Base.TextAppearance.AppCompat.Body2"/>

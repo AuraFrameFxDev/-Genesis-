@@ -1,0 +1,4 @@
+# ninja log v5
+0	14	0	clean	bfff2010d6239e2d
+1	299	7764064428623111	CMakeFiles/romtools-native.dir/romtools_native.cpp.o	bd3d595410ff9dcc
+303	487	7764064430436601	C:/Genesis/romtools/build/intermediates/cxx/Debug/n6v4xl2r/obj/arm64-v8a/libromtools-native.so	e37c403112e44a69

@@ -102,6 +102,7 @@ color primary
 color primary_container
 color secondary
 color secondary_container
+color splash_background
 color surface
 color surface_variant
 color tertiary
@@ -113,6 +114,8 @@ drawable ic_arrow_back
 drawable ic_color_palette
 drawable ic_launcher_foreground
 drawable ic_security_alert
+font brolink_demo
+font ethnocentric_rg
 font pixelifysans_medium
 id cut
 id enabledSwitch
@@ -206,6 +209,7 @@ string reset
 string select_agent
 string settings
 string settings_action
+string splash_title
 string start_recording
 string start_transcription
 string status_label
@@ -223,6 +227,9 @@ string user_profile
 string virtual_monitorization
 string xhancement_caution
 string xposed_description
+style SplashScreen.HeaderText
+style SplashScreen.MainText
+style SplashScreen.MaterializeConstruct
 style ThemeOverlay.AuraFrameFX.ActionBar
 style Theme.AuraFrameFX
 styleable CardView cardCornerRadius cardStrokeColor cardStrokeWidth

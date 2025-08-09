@@ -24,12 +24,20 @@
         "source": "dev.aurakai.auraframefx.app-main-7:/font/pixelifysans_medium.ttf"
     },
     {
+        "merged": "dev.aurakai.auraframefx.app-debug-5:/font_ethnocentric_rg.otf.flat",
+        "source": "dev.aurakai.auraframefx.app-main-7:/font/ethnocentric_rg.otf"
+    },
+    {
         "merged": "dev.aurakai.auraframefx.app-debug-5:/drawable_ic_color_palette.xml.flat",
         "source": "dev.aurakai.auraframefx.app-main-7:/drawable/ic_color_palette.xml"
     },
     {
         "merged": "dev.aurakai.auraframefx.app-debug-5:/layout_activity_quick_settings_config.xml.flat",
         "source": "dev.aurakai.auraframefx.app-main-7:/layout/activity_quick_settings_config.xml"
+    },
+    {
+        "merged": "dev.aurakai.auraframefx.app-debug-5:/font_brolink_demo.otf.flat",
+        "source": "dev.aurakai.auraframefx.app-main-7:/font/brolink_demo.otf"
     },
     {
         "merged": "dev.aurakai.auraframefx.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",

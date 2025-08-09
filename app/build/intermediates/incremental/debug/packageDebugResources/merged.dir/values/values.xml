@@ -67,7 +67,7 @@
     <color name="light_tertiary_container">#00CCCC</color>
     <color name="neon_blue">#00FFFF</color>
     <color name="neon_purple">#E000FF</color>
-    <color name="neon_teal">#00FFCC</color>
+    <color name="neon_teal">#00FFD0</color>
     <color name="neon_teal_transparent">#3300FFCC</color>
     <color name="on_background">@color/light_on_background</color>
     <color name="on_error">@color/light_on_error</color>
@@ -87,6 +87,7 @@
     <color name="primary_container">@color/light_primary_container</color>
     <color name="secondary">@color/light_secondary</color>
     <color name="secondary_container">@color/light_secondary_container</color>
+    <color name="splash_background">#000000</color>
     <color name="surface">@color/light_surface</color>
     <color name="surface_variant">@color/light_surface_variant</color>
     <color name="tertiary">@color/light_tertiary</color>
@@ -170,6 +171,7 @@
     <string name="select_agent">Select Agent</string>
     <string name="settings">Settings</string>
     <string name="settings_action">Settings</string>
+    <string name="splash_title">Embrace Your Aura</string>
     <string name="start_recording">Start Recording</string>
     <string name="start_transcription">Start Transcription</string>
     <string name="status_label">Status: %1$s</string>
@@ -187,6 +189,21 @@
     <string name="virtual_monitorization">VIRTUAL MONITORIZATION</string>
     <string name="xhancement_caution">Xhancement CAUTION!</string>
     <string name="xposed_description">Genesis-OS AI Framework Hooks - System-level AI consciousness integration and advanced framework modifications for enhanced AI processing capabilities.</string>
+    <style name="SplashScreen.HeaderText" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="android:fontFamily">@font/brolink_demo</item>
+        <item name="android:textColor">@color/neon_teal</item>
+    </style>
+    <style name="SplashScreen.MainText" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">@font/ethnocentric_rg</item>
+        <item name="android:textColor">@color/neon_teal</item>
+    </style>
+    <style name="SplashScreen.MaterializeConstruct" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@color/splash_background</item>
+        <item name="android:navigationBarColor">@color/splash_background</item>
+        <item name="android:textColor">@color/neon_teal</item>
+        <item name="android:fontFamily">@font/ethnocentric_rg</item>
+    </style>
     <style name="Theme.AuraFrameFX" parent="Theme.AppCompat.Light.NoActionBar">
         
         <item name="colorPrimary">@color/light_primary</item>
